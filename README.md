@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Yktours-web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Веб-интерфейс сервиса по приобретению путевок на теплоходе.
 
 ## Available Scripts
 
