@@ -1,0 +1,208 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-button {
+  text-decoration: none;
+  background-color: #006694;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1400px;
+  padding: 7.5px;
+  margin: 0 auto;
+}
+.card {
+  flex-grow: 1;
+  max-width: 500px;
+  min-width: 270px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-size: cover;
+  margin: 7.5px;
+}
+.loading-indicator {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header > button {
+  display: none !important;
+  margin: 20px;
+}
+.ant-drawer-extra .login-button {
+  margin: 0;
+}
+.ant-drawer-content-wrapper {
+  width: auto !important;
+}
+.ant-drawer-content-wrapper nav {
+  background: none;
+}
+.ant-drawer-content-wrapper nav a {
+  width: 100%;
+}
+.ant-drawer-content-wrapper nav {
+  flex-direction: column;
+}
+.logo img {
+  width: 250px;
+  padding: 15px;
+}
+.login-button {
+  text-decoration: none;
+  background-color: #006694;
+  color: #fff;
+  border-radius: 100px;
+  padding: 10px 30px;
+  margin: 15px;
+  cursor: pointer;
+}
+nav {
+  background-color: rgba(208, 233, 245, 1);
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+nav a {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px;
+}
+.container,
+.description {
+  padding: 20px;
+}
+
+.description > div {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.description > div img {
+  flex-grow: 1;
+  max-width: 50vw;
+  box-shadow: gray 0px 0px 2px;
+  margin-bottom: 20px;
+}
+.description > div .text {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  margin: 0 20px 20px;
+}
+.description > div .text > div {
+  box-shadow: gray 0px 0px 2px;
+  padding: 15px;
+}
+.description .desc {
+  padding: 15px;
+  flex-direction: column;
+  box-shadow: gray 0px 0px 2px;
+}
+.description .desc h2 {
+  margin-bottom: 10px;
+}
+.description .desc p {
+  white-space: pre-line;
+}
+.carousel-image {
+  max-height: 313px;
+  width: 470px;
+  height: calc(100vw / 1.5);
+  object-fit: cover;
+}
+.ant-modal-body .text {
+  padding-left: 24px;
+  flex-grow: 1;
+}
+.ant-modal-body p {
+  margin-bottom: 10px;
+}
+
+.passengers {
+  margin: 0 auto 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+.passengers h1 {
+  margin: 10px 20px;
+  max-width: 1400px;
+}
+.passengers > .flex-sb {
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
+}
+.passengers > .flex-sb > div {
+  flex-grow: 1;
+  margin: 0 20px;
+  max-width: 500px;
+  margin: 0 20px;
+}
+.desc-list p {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.desc-list .flex-sb {
+  margin-bottom: 10px;
+}
+
+.range-wrapper {
+  margin-bottom: 15px;
+}
+.range {
+  display: flex;
+}
+.range .btn {
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+  border: 2px rgb(47, 128, 237) solid;
+  cursor: pointer;
+}
+.range .left {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.range .right {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.range .value {
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+  border: solid 0 #c4c4c4;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  background-color: #fff;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+.passenger {
+  padding: 7.5px 0;
+  border-top: solid grey 1px;
+}
